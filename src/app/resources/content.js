@@ -1,16 +1,17 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Adair",
+  lastName: "Gonzalez",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Fullstack Developer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "adatube@hotmail.com",
+  location: "Texas",
+  phone: "281-235-4531", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Spanish"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -30,12 +31,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/adairgonzalez",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://linkedin.com/in/adair-g-70b9731b0/",
   },
   {
     name: "X",
@@ -63,8 +64,8 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Adair, a fullstack developer specializing in building innovative applications using modern technologies.
+      <br /> From AI-powered education platforms to VR solutions, I transform ideas into impactful software.
     </>
   ),
 };
@@ -90,9 +91,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Adair is a Texas-based fullstack developer with expertise in Java, JavaScript, Python, and modern frameworks
+        like React and Node.js. His work spans from developing AI-powered educational platforms to creating immersive
+        VR experiences. With a strong foundation in both front-end and back-end development, he specializes in
+        building scalable applications that combine innovative technology with exceptional user experiences.
       </>
     ),
   },
@@ -101,17 +103,20 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Applied Materials",
+        timeframe: "May 2024 - Present",
+        role: "Full Stack Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Developed and maintained multiple web applications using jQuery, JavaScript, HTML, and CSS,
+            achieving a 25% improvement in user engagement.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Optimized back-end performance with C# and SQL, reducing response times by 40% through
+            query and stored procedure optimization.
+          </>,
+          <>
+            Led VR solution development, delivering features that increased user immersion by 20%.
           </>,
         ],
         images: [
@@ -125,17 +130,20 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Brav",
+        timeframe: "Jan 2023 - Apr 2023",
+        role: "Software Engineering Intern",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Created and maintained backend services using Java, PHP, Node.js, and SQL, improving
+            data retrieval speed by 25%.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Enhanced website UI with React and Express components, increasing user engagement by 40%
+            and reducing bounce rate by 20%.
+          </>,
+          <>
+            Contributed to 20+ code reviews, helping reduce code defects by 30%.
           </>,
         ],
         images: [],
@@ -147,12 +155,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "The University of Texas at Dallas",
+        description: <>Bachelor of Science in Computer Science (Aug 2023 - Dec 2025)</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "San Jacinto College",
+        description: <>Associate's in Computer Science (Aug 2022 - May 2024)</>,
       },
     ],
   },
@@ -161,8 +169,16 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Languages",
+        description: <>Java, JavaScript, C#, C++, C, Python, SQL, .NET, HTML/CSS, XML, PHP, R</>,
+      },
+      {
+        title: "Frameworks & Libraries",
+        description: <>React, jQuery, Next.js, Node.js, Spring, Angular, Flask, JUnit, WordPress, FastAPI, Bootstrap</>,
+      },
+      {
+        title: "Developer Tools",
+        description: <>Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse, Unity, Unreal</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -209,9 +225,34 @@ const work = {
   path: "/work",
   label: "Work",
   title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
+  description: `Featured projects by ${person.name}`,
+  projects: [
+    {
+      title: "EduCreate",
+      subtitle: "Full-Stack AI Education Platform",
+      timeframe: "Nov 2024 - Present",
+      role: "Lead Developer & Founder",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Supabase", "AI/ML"],
+      description: [
+        <>Architected a dual-purpose education platform that reduced lesson planning time by 70% for teachers</>,
+        <>Developed an intelligent content engine processing 5 file formats with 98% accuracy</>,
+        <>Implemented customized study guide generation with 6 different time-based formats</>
+      ],
+      link: "https://github.com/adairgonzalez/educreateapp"
+    },
+    {
+      title: "FitFlex",
+      subtitle: "Gym Mobile Application",
+      timeframe: "Jan 2024 - May 2024",
+      role: "Lead Developer & Founder",
+      technologies: ["Java", "SQL", "React", "JavaScript", "REST API"],
+      description: [
+        <>Developed a full-stack mobile application for fitness tracking and workout planning</>,
+        <>Implemented GitHub OAuth for user authentication and data retrieval</>,
+        <>Created comprehensive fitness routines and nutrition guides for users</>
+      ]
+    }
+  ]
 };
 
 const gallery = {
