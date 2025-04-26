@@ -9,7 +9,7 @@ const person = {
   role: "Fullstack Developer",
   avatar: "/images/avatar.jpg",
   email: "adatube@hotmail.com",
-  location: "Texas",
+  location: "America/Chicago", // IANA time zone identifier for Texas
   phone: "281-235-4531", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Spanish"], // optional: Leave the array empty if you don't want to display languages
 };
