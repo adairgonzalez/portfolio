@@ -104,14 +104,14 @@ const about = {
         achievements: [
           <>
             Developed and maintained multiple web applications using jQuery, JavaScript, HTML, and CSS,
-            achieving a 25% improvement in user engagement.
+            achieving an improvement in user engagement.
           </>,
           <>
-            Optimized back-end performance with C# and SQL, reducing response times by 40% through
+            Optimized back-end performance with C# and SQL, reducing response times through
             query and stored procedure optimization.
           </>,
           <>
-            Led VR solution development, delivering features that increased user immersion by 20%.
+            Led VR solution development, delivering features that increased user immersion by 15%.
           </>,
         ],
       },
@@ -122,14 +122,13 @@ const about = {
         achievements: [
           <>
             Created and maintained backend services using Java, PHP, Node.js, and SQL, improving
-            data retrieval speed by 25%.
+            data retrieval speed by 12%.
           </>,
           <>
-            Enhanced website UI with React and Express components, increasing user engagement by 40%
-            and reducing bounce rate by 20%.
+            Enhanced website UI with React and Express components, increasing user engagement by 7%.
           </>,
           <>
-            Contributed to 20+ code reviews, helping reduce code defects by 30%.
+            Contributed to 20+ code reviews, helping reduce code defects.
           </>,
         ],
       },
@@ -169,7 +168,7 @@ const about = {
       },
       {
         title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Building next gen apps with Next.js + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
       },
     ],
@@ -198,7 +197,7 @@ const work = {
       role: "Lead Developer & Founder",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Supabase", "AI/ML"],
       description: [
-        <>Architected a dual-purpose education platform that reduced lesson planning time by 70% for teachers</>,
+        <>Architected a dual-purpose education platform that reduced lesson planning time for teachers</>,
         <>Developed an intelligent content engine processing 5 file formats with 98% accuracy</>,
         <>Implemented customized study guide generation with 6 different time-based formats</>
       ],
