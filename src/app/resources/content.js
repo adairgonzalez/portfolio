@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Fullstack Developer",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/avatar.jpeg",
   email: "adatube@hotmail.com",
   location: "America/Chicago", // IANA time zone identifier for Texas
   phone: "281-235-4531", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -56,12 +56,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
-  featured: {
-    display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
-  },
+  headline: <>Crafting intelligent solutions through fullstack innovation</>,
   subline: (
     <>
       I'm Adair, a fullstack developer specializing in building innovative applications using modern technologies.
@@ -83,7 +78,7 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -91,9 +86,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Adair is a Texas-based fullstack developer with expertise in Java, JavaScript, Python, and modern frameworks
-        like React and Node.js. His work spans from developing AI-powered educational platforms to creating immersive
-        VR experiences. With a strong foundation in both front-end and back-end development, he specializes in
+        Hi, I'm Adair! I'm a Texas-based fullstack developer with expertise in Java, JavaScript, Python, and modern frameworks
+        like React and Node.js. My work spans from developing AI-powered educational platforms to creating immersive
+        VR experiences. With a strong foundation in both front-end and back-end development, I specialize in
         building scalable applications that combine innovative technology with exceptional user experiences.
       </>
     ),
@@ -119,15 +114,7 @@ const about = {
             Led VR solution development, delivering features that increased user immersion by 20%.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
         company: "Brav",
@@ -180,33 +167,13 @@ const about = {
         title: "Developer Tools",
         description: <>Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse, Unity, Unreal</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
         title: "Next.js",
         description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
     ],
   },

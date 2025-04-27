@@ -102,7 +102,7 @@ export const Header = () => {
                     className="s-flex-hide"
                     prefixIcon="grid"
                     href="/work"
-                    label={work.label}
+                    label={"Projects"}
                     selected={pathname.startsWith("/work")}
                   />
                   <ToggleButton
