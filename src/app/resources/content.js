@@ -114,7 +114,6 @@ const about = {
             Led VR solution development, delivering features that increased user immersion by 20%.
           </>,
         ],
-        images: [],
       },
       {
         company: "Brav",
@@ -133,7 +132,6 @@ const about = {
             Contributed to 20+ code reviews, helping reduce code defects by 30%.
           </>,
         ],
-        images: [],
       },
     ],
   },
@@ -173,7 +171,6 @@ const about = {
         title: "Next.js",
         description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [],
       },
     ],
   },
