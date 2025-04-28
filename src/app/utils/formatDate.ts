@@ -26,6 +26,9 @@ export function formatDate(date: string, includeRelative = false) {
     month: "long",
     day: "numeric",
     year: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    hour12: true
   });
 
   if (!includeRelative) {

@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Fullstack Developer",
+  role: "Software Engineering Intern",
   avatar: "/images/avatar.jpeg",
   email: "adatube@hotmail.com",
   location: "America/Chicago", // IANA time zone identifier for Texas
@@ -100,7 +100,7 @@ const about = {
       {
         company: "Applied Materials",
         timeframe: "May 2024 - Present",
-        role: "Full Stack Developer",
+        role: "Software Engineering Intern",
         achievements: [
           <>
             Developed and maintained multiple web applications using jQuery, JavaScript, HTML, and CSS,
@@ -201,7 +201,7 @@ const work = {
         <>Developed an intelligent content engine processing 5 file formats with 98% accuracy</>,
         <>Implemented customized study guide generation with 6 different time-based formats</>
       ],
-      link: "https://github.com/adairgonzalez/educreateapp"
+      link: "https://educreateapp.com"
     },
     {
       title: "FitFlex",
