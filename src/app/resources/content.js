@@ -191,6 +191,19 @@ const work = {
   description: `Featured projects by ${person.name}`,
   projects: [
     {
+      title: "FitFlex",
+      subtitle: "Embedded Fitness Monitoring System",
+      timeframe: "Jan 2024 - Present",
+      role: "Lead Developer & Founder",
+      technologies: ["C++", "Python", "OpenCV", "Linux", "Raspberry Pi", "TCP/IP"],
+      description: [
+        <>Designed a prototype embedded system for fitness tracking using a Raspberry Pi running embedded Linux</>,
+        <>Developed C++ modules to monitor exercise routines via onboard sensors and vision-based posture recognition (OpenCV)</>,
+        <>Integrated Python scripts for ML-based pose estimation and compared results against static rep-counting logic</>,
+        <>Implemented lightweight TCP/IP communication between the device and a local server for data aggregation</>
+      ]
+    },
+    {
       title: "EduCreate",
       subtitle: "Full-Stack AI Education Platform",
       timeframe: "Nov 2024 - Present",
@@ -202,18 +215,6 @@ const work = {
         <>Implemented customized study guide generation with 6 different time-based formats</>
       ],
       link: "https://educreateapp.com"
-    },
-    {
-      title: "FitFlex",
-      subtitle: "Gym Mobile Application",
-      timeframe: "Jan 2024 - May 2024",
-      role: "Lead Developer & Founder",
-      technologies: ["Java", "SQL", "React", "JavaScript", "REST API"],
-      description: [
-        <>Developed a full-stack mobile application for fitness tracking and workout planning</>,
-        <>Implemented GitHub OAuth for user authentication and data retrieval</>,
-        <>Created comprehensive fitness routines and nutrition guides for users</>
-      ]
     }
   ]
 };
