@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Software Engineering Intern",
-  avatar: "/images/avatar.jpeg",
+  avatar: "/images/Adair.jpeg",
   email: "adatube@hotmail.com",
   location: "America/Chicago", // IANA time zone identifier for Texas
   phone: "281-235-4531", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -190,19 +190,6 @@ const work = {
   title: `Projects – ${person.name}`,
   description: `Featured projects by ${person.name}`,
   projects: [
-    {
-      title: "FitFlex",
-      subtitle: "Embedded Fitness Monitoring System",
-      timeframe: "Jan 2024 - Present",
-      role: "Lead Developer & Founder",
-      technologies: ["C++", "Python", "OpenCV", "Linux", "Raspberry Pi", "TCP/IP"],
-      description: [
-        <>Designed a prototype embedded system for fitness tracking using a Raspberry Pi running embedded Linux</>,
-        <>Developed C++ modules to monitor exercise routines via onboard sensors and vision-based posture recognition (OpenCV)</>,
-        <>Integrated Python scripts for ML-based pose estimation and compared results against static rep-counting logic</>,
-        <>Implemented lightweight TCP/IP communication between the device and a local server for data aggregation</>
-      ]
-    },
     {
       title: "EduCreate",
       subtitle: "Full-Stack AI Education Platform",
